@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "git-work.gemspec",
     "lib/git-work.rb",
     "spec/git-work_spec.rb",
     "spec/spec_helper.rb"
