@@ -5,13 +5,14 @@
 
 Gem::Specification.new do |s|
   s.name = %q{git-work}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Joseph Ku}]
   s.date = %q{2012-03-06}
   s.description = %q{Provide you an elegant Git workflow}
   s.email = %q{chiehfang.ku@gmail.com}
+  s.executables = [%q{git-feature}, %q{git-release}, %q{git-work}]
   s.extra_rdoc_files = [
     "LICENSE",
     "README.md"
@@ -23,6 +24,9 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "bin/git-feature",
+    "bin/git-release",
+    "bin/git-work",
     "git-work.gemspec",
     "lib/git-work.rb",
     "spec/git-work_spec.rb",
